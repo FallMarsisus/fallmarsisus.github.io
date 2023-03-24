@@ -8,10 +8,10 @@
     
     
     
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Home - Doc NSI1</title>
+    <title>15 - Types de Données - Doc NSI1</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="css/base.min.css" rel="stylesheet">
-    <link href="css/cinder.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
 
     
         
@@ -40,7 +40,7 @@
      
 </head>
 
-<body class="homepage" >
+<body>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -59,7 +59,7 @@
             <!-- Main title -->
 
             
-              <a class="navbar-brand" href=".">Doc NSI1</a>
+              <a class="navbar-brand" href="..">Doc NSI1</a>
             
         </div>
 
@@ -69,31 +69,31 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="active">
-                        <a href=".">Home</a>
+                    <li >
+                        <a href="..">Home</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="about/">About</a>
+                        <a href="../about/">About</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chapitres <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="05-RepresentationDonnees/">05 - Représentation de données</a>
+    <a href="../05-RepresentationDonnees/">05 - Représentation de données</a>
 </li>
 
                         
                             
-<li >
-    <a href="15-TypesDonneesTypesConstruits/">15 - Types de Données</a>
+<li class="active">
+    <a href="./">15 - Types de Données</a>
 </li>
 
                         
@@ -109,13 +109,13 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../05-RepresentationDonnees/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="next" href="about/">
+                    <li class="disabled">
+                        <a rel="next" >
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -129,26 +129,39 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#bienvenue-sur-la-doc-des-premieres-de-nsi">Bienvenue sur la doc des premières de NSI</a></li>
-            <li class="second-level"><a href="#chapitres-de-lannee">Chapitres de l'année</a></li>
-                
-            <li class="second-level"><a href="#liens-utiles">Liens utiles</a></li>
+        <li class="first-level active"><a href="#chapitre-15-types-de-base-et-types-construits">Chapitre 15 : Types de base et types construits</a></li>
+            <li class="second-level"><a href="#tableau-des-principaux-types">Tableau des principaux types</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="bienvenue-sur-la-doc-des-premieres-de-nsi">Bienvenue sur la doc des premières de NSI</h1>
-<p>Bienvenue sur le cours de NSI de E. Buonocore au Lycée Molière. Vous trouverez progressivement dans cette documentation un grand nombre de chapitres étudiés au cours de l'année de première.</p>
-<h2 id="chapitres-de-lannee">Chapitres de l'année</h2>
-<ul>
-<li>05 : <a href="05-RepresentationDonnees/">Ecriture d'un entier positif dans une base b ≥ 2</a></li>
-<li>15 : <a href="15-TypesDonneesTypesConstruits/">Types de Base et Types Construits</a></li>
-</ul>
-<h2 id="liens-utiles">Liens utiles</h2>
-<ul>
-<li><a href="http://www.france-ioi.org/">France IOI</a> - Contenus permettant de progresser en programmation, algorithmique...</li>
-</ul></div>
+<h1 id="chapitre-15-types-de-base-et-types-construits">Chapitre 15 : Types de base et types construits</h1>
+<h2 id="tableau-des-principaux-types">Tableau des principaux types</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nom</th>
+<th>Code du type</th>
+<th>Description et opérations classiques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type Numérique</td>
+<td>Entier</td>
+<td>int</td>
+<td><code>&gt;&gt;&gt; type(2) : &lt;class 'int'&gt;</code></td>
+</tr>
+<tr>
+<td>Type Numérique</td>
+<td>Flottant</td>
+<td>float</td>
+<td><code>&gt;&gt;&gt; type(3.4) : &lt;class 'int'&gt;</code></td>
+</tr>
+</tbody>
+</table></div>
         
         
     </div>
@@ -168,7 +181,7 @@
       </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
 
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
@@ -176,10 +189,10 @@
     <script>hljs.initHighlightingOnLoad();</script>
     
 
-    <script>var base_url = "."</script>
+    <script>var base_url = ".."</script>
     
-    <script src="js/base.js"></script>
-    <script src="search/main.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -250,8 +263,3 @@
     </body>
 
 </html>
-
-<!--
-MkDocs version : 1.4.2
-Build Date UTC : 2023-03-24 21:11:42.219197+00:00
--->
