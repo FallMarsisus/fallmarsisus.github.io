@@ -70,13 +70,13 @@
                 
                 
                     <li >
-                        <a href="..">Home</a>
+                        <a href="..">Accueil</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../about/">About</a>
+                        <a href="../about/">A Propos</a>
                     </li>
                 
                 
@@ -152,13 +152,31 @@
 <td>Type Numérique</td>
 <td>Entier</td>
 <td>int</td>
-<td><code>&gt;&gt;&gt; type(2) : &lt;class 'int'&gt;</code></td>
+<td><code>&gt;&gt;&gt; type(2)</code><br><code>&lt;class 'int'&gt;</code></td>
 </tr>
 <tr>
 <td>Type Numérique</td>
 <td>Flottant</td>
 <td>float</td>
-<td><code>&gt;&gt;&gt; type(3.4) : &lt;class 'int'&gt;</code></td>
+<td><code>&gt;&gt;&gt; type(3.4)</code><br><code>&lt;class 'float'&gt;</code><br>Attention aux problèmes d'arrondi:<br><code>&gt;&gt;&gt; 0.1 + 0.2 == 0.3</code><br><code>False</code></td>
+</tr>
+<tr>
+<td>Type itérable</td>
+<td>Chaîne de caractères</td>
+<td>str</td>
+<td><code>&gt;&gt;&gt; chaine = "je suis une chaîne"</code><br><code>&gt;&gt;&gt; type(chaine)</code><br><code>&lt;class 'str'&gt;</code><br><code>&gt;&gt;&gt; chaine[4]</code><br><code>'u'</code></td>
+</tr>
+<tr>
+<td>Type itérable</td>
+<td>p-uplet</td>
+<td>tuple</td>
+<td><code>&gt;&gt;&gt; t = ('a', 3, 3.5)</code><br><code>&gt;&gt;&gt; t[0]</code><br><code>'a'</code></td>
+</tr>
+<tr>
+<td>Type itérable</td>
+<td>Liste</td>
+<td>list</td>
+<td><code>&gt;&gt;&gt; m = [2, 3, 5]</code><br><code>&gt;&gt;&gt; m[0]</code><br><code>2</code><br>Attention pour copier une liste : <code>n = m.copy()</code> ou <code>n = m[:]</code></td>
 </tr>
 </tbody>
 </table></div>
