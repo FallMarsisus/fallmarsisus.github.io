@@ -102,7 +102,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#chapitre-15-types-de-base-et-types-construits" class="md-skip">
+        <a href="#macro-rendering-error" class="md-skip">
           Aller au contenu
         </a>
       
@@ -325,47 +325,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          15 - Types de Données
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         15 - Types de Données
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tableau-des-principaux-types" class="md-nav__link">
-    Tableau des principaux types
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exemples" class="md-nav__link">
-    Exemples
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -398,28 +360,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tableau-des-principaux-types" class="md-nav__link">
-    Tableau des principaux types
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exemples" class="md-nav__link">
-    Exemples
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -434,93 +374,26 @@
                   
 
 
-<h1 id="chapitre-15-types-de-base-et-types-construits">Chapitre 15 : Types de base et types construits</h1>
-<h2 id="tableau-des-principaux-types">Tableau des principaux types</h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🔢 Types Numériques</label><label for="__tabbed_1_2">#️⃣ Types Itérables</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Nom</th>
-<th>Code du type</th>
-<th>Description et opérations classiques</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Entier</td>
-<td>int</td>
-<td><code>&gt;&gt;&gt; type(2)</code><br><code>&lt;class 'int'&gt;</code></td>
-</tr>
-<tr>
-<td>Flottant</td>
-<td>float</td>
-<td><code>&gt;&gt;&gt; type(3.4)</code><br><code>&lt;class 'float'&gt;</code><br>Attention aux problèmes d'arrondi:<br><code>&gt;&gt;&gt; 0.1 + 0.2 == 0.3</code><br><code>False</code></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Nom</th>
-<th>Code du type</th>
-<th>Description et opérations classiques</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Chaîne de caractères</td>
-<td>str</td>
-<td><code>&gt;&gt;&gt; chaine = "je suis une chaîne"</code><br><code>&gt;&gt;&gt; type(chaine)</code><br><code>&lt;class 'str'&gt;</code><br><code>&gt;&gt;&gt; chaine[4]</code><br><code>'u'</code></td>
-</tr>
-<tr>
-<td>p-uplet</td>
-<td>tuple</td>
-<td><code>&gt;&gt;&gt; t = ('a', 3, 3.5)</code><br><code>&gt;&gt;&gt; t[0]</code><br><code>'a'</code></td>
-</tr>
-<tr>
-<td>Liste</td>
-<td>list</td>
-<td><code>&gt;&gt;&gt; m = [2, 3, 5]</code><br><code>&gt;&gt;&gt; m[0]</code><br><code>2</code><br>Attention pour copier une liste : <code>n = m.copy()</code> ou <code>n = m[:]</code></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<h2 id="exemples">Exemples</h2>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>Vous pouvez vous amuser à visualiser les types de variables différentes avec le "trinket" ci dessous
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="exec-0--__tabbed_1_1" name="exec-0--__tabbed_1" type="radio" /><input id="exec-0--__tabbed_1_2" name="exec-0--__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="exec-0--__tabbed_1_1">Source</label><label for="exec-0--__tabbed_1_2">Result</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">nom</span> <span class="o">=</span> <span class="s1">&#39;Toto&#39;</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">nom</span><span class="p">))</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">age</span> <span class="o">=</span> <span class="mi">17</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">age</span><span class="p">))</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">occupations</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Jeu Vidéos&quot;</span><span class="p">,</span> <span class="s2">&quot;Lecture&quot;</span><span class="p">,</span> <span class="s2">&quot;Ecouter de la musique&quot;</span><span class="p">]</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">occupations</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">occupations</span><span class="p">))</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">dort</span> <span class="o">=</span> <span class="kc">False</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="nb">print</span><span class="p">(</span><span class="n">dort</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">dort</span><span class="p">))</span>
+<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
+<p><strong>TypeError</strong>: argument of type 'NoneType' is not iterable</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Traceback (most recent call last):
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  File &quot;C:\Users\lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mkdocs_macros\plugin.py&quot;, line 480, in render
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    return md_template.render(**page_variables)
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  File &quot;C:\Users\lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\jinja2\environment.py&quot;, line 1301, in render
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    self.environment.handle_exception()
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  File &quot;C:\Users\lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\jinja2\environment.py&quot;, line 936, in handle_exception
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    raise rewrite_traceback_stack(source=source)
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  File &quot;&lt;template&gt;&quot;, line 23, in top-level template code
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  File &quot;C:\Users\lance\nsiSite\main.py&quot;, line 359, in IDE
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    filepath = get_filepath()
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>  File &quot;C:\Users\lance\nsiSite\main.py&quot;, line 83, in get_filepath
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    convert_url_to_utf8(env.variables.page.abs_url).split(&quot;/&quot;)[2:-2],
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>  File &quot;C:\Users\lance\nsiSite\main.py&quot;, line 159, in convert_url_to_utf8
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    return unquote(nom, encoding=&quot;utf-8&quot;)
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0\lib\urllib\parse.py&quot;, line 655, in unquote
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    if &#39;%&#39; not in string:
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>TypeError: argument of type &#39;NoneType&#39; is not iterable
 </span></code></pre></div>
-</div>
-<div class="tabbed-block">
-<p>Toto <class 'str'>
-17 <class 'int'>
-['Jeu Vidéos', 'Lecture', 'Ecouter de la musique'] <class 'list'>
-False <class 'bool'></p>
-</div>
-</div>
-</div></p>
-</div>
-<iframe src="https://trinket.io/embed/python/a11c1380d2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 
