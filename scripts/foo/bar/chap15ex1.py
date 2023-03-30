@@ -8,4 +8,4 @@ occupations = ["Jeu Vidéos", "Lecture", "Ecouter de la musique"]
 print(occupations, type(occupations))
 
 dort = False
-print(dort, type(dort))
+print(dort, type(dort)) 
