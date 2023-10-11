@@ -31,28 +31,47 @@
   
 
   
+    
+
+    
+      
+      
+
+      
+        <!-- it's a local file path -->
+
+      
+    
+  
 
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Marsisus" />
+<meta property="og:title" content="A site for my high school to access digital manuals." />
+<meta name="author" content="Simon Lancelin" />
 <meta property="og:locale" content="fr" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="It’s not properly a tutorial but it sets the way you can follow to do a thing that ressembles mine." />
+<meta property="og:description" content="It’s not properly a tutorial but it sets the way you can follow to do a thing that ressembles mine." />
+<link rel="canonical" href="http://localhost:4000/posts/high-school-digital-manual/" />
+<meta property="og:url" content="http://localhost:4000/posts/high-school-digital-manual/" />
 <meta property="og:site_name" content="Marsisus" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Marsisus" />
+<meta property="og:image" content="http://localhost:4000/%5Cassets%5Cimg%5Cscreensitemanuels.png" />
+<meta property="og:image:alt" content="A screen of the site I made" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-10-11T21:00:00+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/%5Cassets%5Cimg%5Cscreensitemanuels.png" />
+<meta name="twitter:image:alt" content="A screen of the site I made" />
+<meta property="twitter:title" content="A site for my high school to access digital manuals." />
 <meta name="twitter:site" content="@LancelinSimon" />
+<meta name="twitter:creator" content="@Simon Lancelin" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Marsisus","name":"Simon Lancelin","sameAs":["https://twitter.com/LancelinSimon","https://github.com/FallMarsisus"],"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Simon Lancelin"},"dateModified":"2023-10-11T21:00:00+02:00","datePublished":"2023-10-11T21:00:00+02:00","description":"It’s not properly a tutorial but it sets the way you can follow to do a thing that ressembles mine.","headline":"A site for my high school to access digital manuals.","image":{"lqip":"\\assets\\img\\screensitemanuels.png","alt":"A screen of the site I made","url":"http://localhost:4000/%5Cassets%5Cimg%5Cscreensitemanuels.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/high-school-digital-manual/"},"url":"http://localhost:4000/posts/high-school-digital-manual/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Marsisus
+  <title>A site for my high school to access digital manuals. | Marsisus
   </title>
 
   <!--
@@ -104,11 +123,16 @@
   <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.1/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -287,7 +311,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -451,9 +475,25 @@
       
 
       
-        <!-- index page -->
-        <span>Home</span>
+        
+          
+            <span>
+              <a href="/">
+                Home
+              </a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>A site for my high school to access digital manuals.</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -463,7 +503,7 @@
     </button>
 
     <div id="topbar-title">
-      Marsisus
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -569,53 +609,6 @@
 
       
     
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-
-      <!-- add image placeholder -->
-      
-
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
       
 
       
@@ -661,12 +654,16 @@
     
 
     
-      <!-- create the image wrapper -->
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
       
 
       
-      
+        <!-- create the image wrapper -->
+        
 
+        
+        
+      
     
 
     <!-- combine -->
@@ -714,151 +711,15 @@
 
 
 
+<article class="px-1">
+  <header>
+    <h1 data-toc-skip>A site for my high school to access digital manuals.</h1>
 
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/posts/text-and-typography/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Text and Typography</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
-
-Headings
-
-H1 - heading
-
-H2 - heading
-
-H3 - ...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1565235180"
-  data-df="ll"
-  
->
-  Aug  8, 2019
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Blogging,
-                      Demo
-                  </span>
-                
-              </div>
-
-              
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span></span>
-                </div>
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/high-school-digital-manual/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img "><img data-src="/\assets\img\screensitemanuels.png" alt="A screen of the site I made" data-lqip="true" src="\assets\img\screensitemanuels.png" loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">A site for my high school to access digital manuals.</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                It’s not properly a tutorial but it sets the way you can follow to do a thing that ressembles mine.
-
-This post explains how and why I made this site, and the main steps to do it yourself. 
-The site...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -871,113 +732,254 @@ The site...
   data-ts="1697050800"
   data-df="ll"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   Oct 11, 2023
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Projects
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
 
+      
+        
+        
+        
+
+        
+
+        <div class="mt-3 mb-3">
+          <a href="\assets\img\screensitemanuels.png" class="popup img-link preview-img"><img data-src="\assets\img\screensitemanuels.png"  alt="A screen of the site I made" width="1200" height="630" data-lqip="true" src="\assets\img\screensitemanuels.png" loading="lazy"></a><figcaption class="text-center pt-2 pb-2">A screen of the site I made</figcaption></div>
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
               
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/my-project-with-HEVE/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img "><img data-src="/assets/img/image.png" alt="A screen of HEVE Mainpage." data-lqip="true" src="/assets/img/image.png" loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">My actions with HEVE</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
+                <a href=""></a>
                 
+              
+            
+          </em>
+        </span>
+
+        <!-- read time -->
+        <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
 
 
 
 
 
-                This post summarizes my participation with Nikita Guerlet’s HEVE project. HEVE is a label meant to encourage little artists on creativity, social media…
-
-Details
-I am responsible of all the design ...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
 
 
 
 
-<time
-  
-  data-ts="1696366800"
-  data-df="ll"
-  
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="319 words"
 >
-  Oct  3, 2023
-</time>
+  <em>1 min</em> read</span>
 
+      </div>
+      <!-- .d-flex -->
+    </div>
+    <!-- .post-meta -->
+  </header>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Projects
-                  </span>
-                
-              </div>
+  <div class="content">
+    <p><strong>It’s not properly a tutorial but it sets the way you can follow to do a thing that ressembles mine.</strong></p>
 
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+<p>This post explains how and why I made this site, and the main steps to do it yourself. 
+<em>The site is in French as I am French, but feel free to translate to any language.</em></p>
+
+<h1 id="1-create-a-project-and-choose-how-to-style-your-site">1. Create a project, and choose how to style your site.</h1>
+<p>First, create a HTML/CSS/JS project in your favourite IDE, or via an online service (as <a href="https://glitch.com">https://glitch.com</a>).</p>
+
+<p>You can use <a href="https://getbootstrap.com">Bootstrap</a> for the graphics as it made many things (including CSS struggling) much much easier.</p>
+
+<p>You may start to design a first page, but keep in mind that we will use javascript to generate all the content automatticaly : we will only use an <code class="language-plaintext highlighter-rouge">index.html</code> page.</p>
+
+<p>You can also start wandering for links to the digital version of your manuals, in most of europe they are free to read online since covid.
+You can also wander for images of the covers, download them.</p>
+
+<h1 id="2-create-a-json-file-for-all-the-data-and-parse-it-with-javascript">2. Create a json file for all the data and parse it with javascript.</h1>
+
+<p>The next step is to create a <code class="language-plaintext highlighter-rouge">data.json</code> file, that will store all the data of your site.</p>
+
+<p>I recommand you formatting it like this one :</p>
+<div class="language-json highlighter-rouge"><div class="code-header">
+        <span data-label-text="JSON"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre><span class="p">[</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">One</span><span class="w"> </span><span class="err">category</span><span class="w"> </span><span class="err">for</span><span class="w"> </span><span class="err">one</span><span class="w"> </span><span class="err">level</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"name_of_your_class"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"the title you want to display on the page"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> 
+            </span><span class="p">[</span><span class="w">
+                </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Name of your manual"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"link"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Link to the page of the manual"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Link to the cover of the manual"</span><span class="w">
+                </span><span class="p">},</span><span class="w"> 
+                </span><span class="err">//</span><span class="w"> </span><span class="err">repeat</span><span class="w"> </span><span class="err">for</span><span class="w"> </span><span class="err">all</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">manuals</span><span class="w"> </span><span class="err">you</span><span class="w"> </span><span class="err">want</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">add</span><span class="w">
+            </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">repeat</span><span class="w"> </span><span class="err">for</span><span class="w"> </span><span class="err">all</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">classes</span><span class="w"> </span><span class="err">you</span><span class="w"> </span><span class="err">want</span><span class="w"> </span><span class="err">to</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></pre></td></tr></tbody></table></code></div></div>
+
+<p>You can then open it with a function (that is called on click on the buttons on the main page), and parse it as you want.</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/projects/">Projects</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/site/"
+            class="post-tag no-text-decoration"
+          >site</a>
+        
+          <a
+            href="/tags/tutorial/"
+            class="post-tag no-text-decoration"
+          >tutorial</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted me-1">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+      
+      <a
+        href="https://twitter.com/intent/tweet?text=A%20site%20for%20my%20high%20school%20to%20access%20digital%20manuals.%20-%20Marsisus&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fhigh-school-digital-manual%2F"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Twitter"
+        target="_blank"
+        rel="noopener"
+        aria-label="Twitter"
+      >
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
-    </article>
-  
+    
+      
+      <a
+        href="https://www.facebook.com/sharer/sharer.php?title=A%20site%20for%20my%20high%20school%20to%20access%20digital%20manuals.%20-%20Marsisus&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fhigh-school-digital-manual%2F"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Facebook"
+        target="_blank"
+        rel="noopener"
+        aria-label="Facebook"
+      >
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+      
+      <a
+        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fhigh-school-digital-manual%2F&text=A%20site%20for%20my%20high%20school%20to%20access%20digital%20manuals.%20-%20Marsisus"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Telegram"
+        target="_blank"
+        rel="noopener"
+        aria-label="Telegram"
+      >
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -1115,12 +1117,150 @@ I am responsible of all the design ...
             </div>
 
             
+              
+              
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/my-project-with-HEVE/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+    class="small"
+  
+  data-ts="1696366800"
+  data-df="ll"
+  
+>
+  Oct  3, 2023
+</time>
+
+              <h4 class="pt-0 my-2">My actions with HEVE</h4>
+              <div class="text-muted small">
+                <p>
+                  
+
+
+
+
+
+                  This post summarizes my participation with Nikita Guerlet’s HEVE project. HEVE is a label meant to encourage little artists on creativity, social media…
+
+Details
+I am responsible of all the design ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/my-project-with-HEVE/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>My actions with HEVE</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
+            
+              
+              <!--  The comments switcher -->
+
+
             
 
             <!-- The Footer -->
@@ -1325,6 +1465,9 @@ I am responsible of all the design ...
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -1396,21 +1539,102 @@ I am responsible of all the design ...
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.9/dayjs.min.js,npm/dayjs@1.11.9/locale/fr.min.js,npm/dayjs@1.11.9/plugin/relativeTime.min.js,npm/dayjs@1.11.9/plugin/localizedFormat.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.9/dayjs.min.js,npm/dayjs@1.11.9/locale/fr.min.js,npm/dayjs@1.11.9/plugin/relativeTime.min.js,npm/dayjs@1.11.9/plugin/localizedFormat.min.js,npm/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
 
 
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 
 
+
+    
+      <!-- mermaid-js loader -->
+<script type="text/javascript">
+  (function () {
+    function updateMermaid(event) {
+      if (event.source === window && event.data && event.data.direction === ModeToggle.ID) {
+        const mode = event.data.message;
+
+        if (typeof mermaid === 'undefined') {
+          return;
+        }
+
+        let expectedTheme = mode === ModeToggle.DARK_MODE ? 'dark' : 'default';
+        let config = { theme: expectedTheme };
+
+        /* Re-render the SVG › <https://github.com/mermaid-js/mermaid/issues/311#issuecomment-332557344> */
+        $('.mermaid').each(function () {
+          let svgCode = $(this).prev().children().html();
+          $(this).removeAttr('data-processed');
+          $(this).html(svgCode);
+        });
+
+        mermaid.initialize(config);
+        mermaid.init(undefined, '.mermaid');
+      }
+    }
+
+    let initTheme = 'default';
+    const html = document.documentElement;
+
+    if (
+      (html.hasAttribute('data-mode') && html.getAttribute('data-mode') === 'dark') ||
+      (!html.hasAttribute('data-mode') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      initTheme = 'dark';
+    }
+
+    let mermaidConf = {
+      theme: initTheme /* <default|dark|forest|neutral> */
+    };
+
+    /* Create mermaid tag */
+    document.querySelectorAll('pre>code.language-mermaid').forEach((elem) => {
+      const svgCode = elem.textContent;
+      const backup = elem.parentElement;
+      backup.classList.add('unloaded');
+      /* create mermaid node */
+      let mermaid = document.createElement('pre');
+      mermaid.classList.add('mermaid');
+      const text = document.createTextNode(svgCode);
+      mermaid.appendChild(text);
+      backup.after(mermaid);
+    });
+
+    mermaid.initialize(mermaidConf);
+
+    window.addEventListener('message', updateMermaid);
+  })();
+</script>
 
     
 
