@@ -1,85 +1,67 @@
 <!DOCTYPE html>
-<html data-bs-theme="light">
-
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/Social-Icon--hover-effect.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site en chantier</title>
+    <style>
+        /* Réinitialisation de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mise en page principale */
+        body {
+            height: 100vh; /* Prend toute la hauteur de l'écran */
+            display: flex;
+            justify-content: center; /* Centre horizontalement */
+            align-items: center; /* Centre verticalement */
+            background-color: #f9f9f9; /* Fond gris très pâle (propre) */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #333; /* Texte gris foncé (plus doux que le noir pur) */
+        }
+
+        /* Conteneur du texte */
+        .container {
+            text-align: center;
+            padding: 2rem;
+            animation: fadeIn 1.5s ease-in; /* Petite animation d'apparition */
+        }
+
+        /* Le titre principal */
+        h1 {
+            font-weight: 300; /* Police fine pour l'élégance */
+            text-transform: uppercase; /* Majuscules */
+            letter-spacing: 4px; /* Espacement entre les lettres */
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #ddd; /* Petit trait de séparation */
+            padding-bottom: 1rem;
+            display: inline-block;
+        }
+
+        /* Sous-texte optionnel (ou juste un point) */
+        p {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
+
+        /* Animation simple */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top portfolio-navbar gradient navbar-dark">
-        <div class="container"><a class="navbar-brand logo" href="#">Marsisus</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects and Tutorials</a></li>
-                    <li class="nav-item">
-                        <div class="container text-center d-flex float-none justify-content-sm-center align-items-sm-center"><a class="social-link" href="https://twitter.com/marsitronics" style="margin: 0px 5px;"><i class="fa fa-twitter social-link-icon"></i>
-                                <div class="social-link-effect"></div>
-                            </a><a class="social-link" href="https://www.instagram.com/marsitronics/" style="margin: 0px 5px;"><i class="fa fa-instagram social-link-icon"></i>
-                                <div class="social-link-effect"></div>
-                            </a><a class="social-link" href="https://github.com/FallMarsisus" style="margin: 0px 5px;"><i class="fa fa-github social-link-icon"></i>
-                                <div class="social-link-effect"></div>
-                            </a></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro"><img src="assets/img/IMG_0376.jpg" style="width: 200px;height: 200px;margin: 30px;margin-top: 0;margin-right: 0;margin-bottom: 30px;margin-left: 0;border-radius: 500px;border-style: groove;">
-            <div class="container">
-                <div class="about-me">
-                    <p>I am&nbsp;<strong>Marsisus</strong>, student in IT. Discover my Work!</p><a class="btn btn-outline-primary" role="button" href="projects-grid-cards.html">See Projects</a>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/Capture%20d%27écran%202024-05-08%20123127.png"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/Capture%20d%27écran%202024-05-08%20123238.png" width="360" height="528"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"></a><img class="img-fluid image" alt="black and silver audio jack" src="assets/img/photo-1593616307659-07f02b400e14.jpg" width="305" height="510"></div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block call-to-action border-bottom"></section>
-        <section class="portfolio-block skills"></section>
-    </main>
-    <section class="portfolio-block website gradient">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                    <h3>How did I create my website ?</h3>
-                    <p>Thanks to the "Student Developper" program, from Github, I created this site with" Bootstrap Creator" tool, and I published it to Github Pages with the <em>free&nbsp;</em>web address&nbsp;<em>marsisus.me, </em>which is extremely useful. If you're a student and want to try it, go to education.github.com</p>
-                </div>
-                <div class="col-md-12 col-lg-5">
-                    <div class="portfolio-laptop-mockup">
-                        <div class="screen">
-                            <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
-                        </div>
-                        <div class="keyboard"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="page-footer py-3 border-top">
-        <div class="container my-4">
-            <div class="links"><a href="#">About</a></div>
-            <div class="social-icons"><a class="me-3" href="#"><i class="icon ion-social-facebook"></i></a><a class="me-3" href="#"><i class="icon ion-social-instagram-outline"></i></a><a class="me-3" href="#"><i class="icon ion-social-twitter"></i></a></div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-</body>
 
+    <div class="container">
+        <h1>Site en chantier</h1>
+        <p>Bientôt disponible</p>
+    </div>
+
+</body>
 </html>
